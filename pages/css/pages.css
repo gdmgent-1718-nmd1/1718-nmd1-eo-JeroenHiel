@@ -1,18 +1,206 @@
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 400;
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body,html {
+    font-family: 'Oswald', sans-serif;
     letter-spacing: -.022em;
-    font-synthesis: none;
-    -moz-font-feature-settings: 'kern';
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #333;
-    line-height: 1.5em;
-    padding: 25px;
+    height: 100%;
+    background: url("../images/space.jpg") no-repeat center center fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
-img {
-    max-width: 100%; /* Afbeeldingen responsive maken */
+
+
+#wrapper{
+    width: 70%;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+  #wrapper2{
+    width: 70%;
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+  }
+
+#wrapper h1{ 
+    color:white;
+    text-align: center;
 }
 
-/* Voeg jouw css hieraan toe */
+.logo{
+        max-width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+}
+
+.leftimg{
+    width:40%;
+    margin-left:5px;
+    margin-top: 5px;
+    float: left;
+
+}
+
+#content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+
+#content h1{
+    text-align: left;
+    margin-left:5px;
+    margin-top: 10%;
+    color: white;
+}
+
+#colorinfo{
+    margin-left:2%;
+    margin-top: 5px;
+    float: left;
+    width: 57%;
+    background-color: white;
+    margin-bottom: 10%; 
+}
+
+#inhoud{
+    margin-left:5px;
+    margin-top: 5px;
+    float: left;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 5%;
+}
+
+#inhoud h1{
+    float:left;
+    margin-top: 5px;
+    margin-left:20px;
+    margin-bottom: 1%;
+    color:#2A2D66;
+    font-size: 100pt;
+}
+
+#inhoud h2{
+    margin-top: 5px;
+    margin-left:20px;
+    margin-bottom: 1%;
+    color:white;
+    font-size: 24pt;
+    background-color: #6BC1BB;
+    padding: 10px;
+}
+
+#inhoud h3{
+    margin-top: 5px;
+    margin-left:20px;
+    margin-bottom: 1%;
+    color:#2A2D66;
+    font-size: 16pt;
+    padding: 20px;
+}
+
+#inhoud p{
+    margin-top: 5px;
+    margin-left:20px;
+    margin-bottom: 1%;
+    color:#2A2D66;
+    font-size: 12pt;
+}
+
+
+
+#inhoud2{
+    margin-left:5px;
+    margin-top: 5px;
+    float: left;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 5%;
+}
+
+.helft{
+    float:left;
+    width: 50%;
+    margin-left:5px;
+    padding: 10px;
+}
+
+.vierde{
+    float:left;
+    width: 25%;
+    margin-left:5px;
+    padding: 10px;
+}
+
+.achts{
+    float:left;
+    width: 12.5%;
+    margin-left:5px;
+    padding: 10px;
+}
+
+#inhoud2 p{
+    color:#2A2D66;
+    font-size: 12pt;
+}
+
+
+#colorinfo p{
+    margin-left: 10px;
+
+}
+
+
+.wit{
+    color:#416E6A;
+}
+
+.blauw{
+    color:#2A2D66;
+}
+
+.groen{
+    color:#6BC1BB;
+}
+
+.rood{
+    color:#A63325;
+}
+
+#arrow {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  }
+
+
+
+
+
+
+ 
+
+
+
+
+
