@@ -199,6 +199,24 @@ p{
     text-align: center;
 }
 
+ul {
+    list-style: none;
+}
+
+ul li{
+    margin-top: 10px;
+}
+
+.plus:before {
+    content: "+";
+    margin-right: 5px;
+}
+
+.min:before{
+    content: "-";
+    margin-right: 5px;
+}
+
 
 
 
